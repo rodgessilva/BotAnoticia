@@ -1,0 +1,205 @@
+Adicionado o usuario BotFather
+[comando de inicio]
+/start
+[criando um bot utiliza o comando a baixo]
+/newbot
+
+[Resposta de BotFather]
+Alright, a new bot. How are we going to call it? Please choose a name for your bot.
+
+[Informado nome ao BotFather]
+AnoticiaBot
+
+
+[Resposta de BotFather]
+Good. Now let's choose a username for your bot. It must end in `bot`. Like this, for example: TetrisBot or tetris_bot.
+
+[Confirmado nome do Bot]
+AnoticiaBot
+
+[Resposta de BotFather]
+Done! Congratulations on your new bot. You will find it at telegram.me/AnoticiaBot. You can now add a description, about section and profile picture for your bot, see /help for a list of commands. By the way, when you've finished creating your cool bot, ping our Bot Support if you want a better username for it. Just make sure the bot is fully operational before you do this.
+
+Use this token to access the HTTP API:
+219846242:AAGsrtxP-RYYDujBF-JHta4ISBAN-WlgEB0
+
+For a description of the Bot API, see this page: https://core.telegram.org/bots/api
+
+They call me the Botfather, I can help you create and set up Telegram bots. Please read this manual before we begin:
+https://core.telegram.org/bots
+
+You can control me by sending these commands:
+
+/newbot - create a new bot
+/token - generate authorization token
+/revoke - revoke bot access token
+/setname - change a bot's name
+/setdescription - change bot description
+/setabouttext - change bot about info
+/setuserpic - change bot profile photo
+/setinline - change inline settings
+/setinlinegeo - toggle inline location requests
+/setinlinefeedback - change inline feedback settings
+/setcommands - change bot commands list
+/setjoingroups - can your bot be added to groups?
+/setprivacy - what messages does your bot see in groups?
+/deletebot - delete a bot
+/cancel - cancel the current operation
+
+[Adicionado o usuario Manybot e iniciado configuração do bot]
+
+/start
+
+[Resposta de Manybot]
+Welcome! Please choose your language.
+
+
+[Selecionando a liguaguagem]
+English
+
+
+[EResposta de Manybot]
+Hello Matheus!
+
+Manybot can help you create your own bots. With Manybot you can send out posts to your users, create custom commands and beautiful menus.
+
+Use /addbot command to create your first bot.
+
+[Adicionando o bot]
+/addbot
+
+[Resposta de Manybot]
+1⃣ Go to @BotFather. Press his name to do that and then press 'Send Messege' if it's needed.
+2⃣ Create a new bot with him. To do this use the 'newbot' command inside @BotFather.
+3⃣ Copy the API token that @BotFather will give you.
+4⃣ Come back to @Manybot and send the copied API token here.
+
+
+[Infomrado token de nosso bot informado pelo BotFather]
+219846242:AAGsrtxP-RYYDujBF-JHta4ISBAN-WlgEB0
+
+[Resposta de Manybot]
+Token for @AnoticiaBot accepted!
+
+Last step.
+
+Write a few words about @AnoticiaBot. What does it do?
+
+..or /skip
+
+
+[Pulando a configuração da descrição do Bot]
+/skip
+
+
+[Resposta de Manybot]
+Ok! You can always add a description later.
+
+
+Congratulations! Your bot is ready.
+
+Invite your audience to your bot using this link: http://telegram.me/AnoticiaBot
+
+Now you can send out updates to your subscribers using the /newpost command or set up autoposting from Twitter, YouTube or RSS feeds using /autoposting command.
+
+
+[Inicializando configuração do Bot]
+/start
+
+
+[Opções de configuração do AnoticiaBot]
+📢 Posting
+/newpost - send a post to your subscribers
+/schedule - view your scheduled posts
+/subscribers - see how many subscribers you have
+
+👾 Commands and Bot Menu
+/commands - manage custom commands and user menues
+
+🔧 Settings
+/botlang - set up your bot language
+/setdescription - change the description of your bot
+/autoposting - set up autoposting from Twitter, YouTube, RSS, VK
+/channels - automate posting from your bot to a Telegram channel
+/admins - manage admins of your bots
+
+📚 Tutorials
+/tutorials - discover how to create and manage your bots
+
+💢 Other
+/help - this menu
+
+Have further questions? You can always reach us at hello@manybot.io
+
+
+[Selecionando as configurações do Bot]
+/autoposting
+
+
+[Resposta de AnoticiaBot]
+You can setup autoposting from Twitter, YouTube, VK or any RSS feed. Which one do you need?
+
+
+[Selecionando a opção de autospoting]
+RSS
+
+
+[Resposta de AnoticiaBot]
+You can setup autoposting from Twitter, YouTube, VK or any RSS feed. Which one do you need?
+
+
+[Adicionando um novo feed]
+➕ RSS feed
+
+[Resposta de AnoticiaBot]
+Enter your RSS feed link to enable autoposting (e.g.: feed://thenextweb.com/feed/).
+
+
+[Setando endereço do feed]
+http://anoticia.clicrbs.com.br/sc/ultimas-noticias-rss/
+
+
+[Resposta de AnoticiaBot]
+Ok!
+
+Now @AnoticiaBot will broadcast your RSS feed to your bot's users.
+
+Autoposting will start shortly.
+
+
+[Selecionando a opção de enviar o cabeçalho de todas as notícias]
+Send Only Headlines
+
+[Resposta de AnoticiaBot]
+Ok! RSS posts view now is set to: send only headlines
+
+RSS: http://anoticia.clicrbs.com.br/sc/ultimas-noticias-rss/
+
+
+[Retornando o menu de configuração]
+Go Back
+
+
+[Resposta de AnoticiaBot]
+Current autoposting channels.
+
+
+[Resposta de AnoticiaBot]
+🔧 Bot Settings
+
+[Selecionando configuração de fuso-horário]
+Timezone
+
+[Resposta de AnoticiaBot]
+You haven't set up your bot's timezone yet. You need to do it if you want to schedule posts.
+
+Enter your current time in HH:MM format (e.g. "22:40"). Append am/pm in case of 12-hour format (e.g. "10:40 pm").
+
+[Informando Hora Local]
+12:24
+
+[Resposta de AnoticiaBot]
+Great! Your time was set to 2016-06-12 12:24:15.
+
+Pronto configurado bot AnoticiaBot
+
